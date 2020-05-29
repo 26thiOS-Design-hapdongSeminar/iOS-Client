@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ThirdInnerCellIdentifier" id="gTV-IL-0wX" customClass="ThirdInnerCell" customModule="Sopt5thSeminar_Idus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="184" height="197"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="184" height="197"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4n-hr-F8u">
+                        <rect key="frame" x="0.0" y="120" width="184" height="77"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공예/도자 ㅣ 난이도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Btv-bQ-QyS">
+                                <rect key="frame" x="1" y="8" width="64" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtA-my-Bkf">
+                                <rect key="frame" x="66" y="8" width="7" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1E-zJ-dLS">
+                                <rect key="frame" x="1" y="21" width="180" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="pHF-GJ-4qk"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="나만의 미니멀한 도자 컵, 클래스">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ju-XT-1ky">
+                                <rect key="frame" x="1" y="47" width="73" height="17"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="월 41,600원 ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="AppleSDGothicNeo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYP-Yj-037">
+                                <rect key="frame" x="150" y="50" width="32" height="11"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="32일 남음">
+                                        <attributes>
+                                            <font key="NSFont" size="8" name="AppleSDGothicNeo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="274" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngB-eP-kcu">
+                                <rect key="frame" x="166" y="9" width="15" height="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="Mvl-pH-sAw">
+                                <rect key="frame" x="155" y="7.5" width="11" height="11"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="K1E-zJ-dLS" firstAttribute="top" secondItem="vtA-my-Bkf" secondAttribute="bottom" constant="3" id="0vW-Co-QWG"/>
+                            <constraint firstItem="Mvl-pH-sAw" firstAttribute="leading" secondItem="vtA-my-Bkf" secondAttribute="trailing" constant="82" id="3cW-Yx-U53"/>
+                            <constraint firstItem="vtA-my-Bkf" firstAttribute="leading" secondItem="Btv-bQ-QyS" secondAttribute="trailing" constant="1" id="5jI-Xo-5Hw"/>
+                            <constraint firstItem="6ju-XT-1ky" firstAttribute="top" secondItem="K1E-zJ-dLS" secondAttribute="bottom" constant="10" id="GYk-tj-0eJ"/>
+                            <constraint firstAttribute="bottom" secondItem="6ju-XT-1ky" secondAttribute="bottom" constant="13" id="Gaz-ib-XAq"/>
+                            <constraint firstItem="Btv-bQ-QyS" firstAttribute="centerY" secondItem="ngB-eP-kcu" secondAttribute="centerY" id="HF0-9R-uOo"/>
+                            <constraint firstItem="RYP-Yj-037" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6ju-XT-1ky" secondAttribute="trailing" constant="55" id="PBX-ah-qae"/>
+                            <constraint firstItem="K1E-zJ-dLS" firstAttribute="top" secondItem="ngB-eP-kcu" secondAttribute="bottom" constant="4" id="SoS-dU-1UU"/>
+                            <constraint firstItem="K1E-zJ-dLS" firstAttribute="leading" secondItem="F4n-hr-F8u" secondAttribute="leading" constant="1" id="V20-Vq-zGa"/>
+                            <constraint firstItem="ngB-eP-kcu" firstAttribute="leading" secondItem="Mvl-pH-sAw" secondAttribute="trailing" id="XTR-2Y-Q9S"/>
+                            <constraint firstItem="Btv-bQ-QyS" firstAttribute="leading" secondItem="F4n-hr-F8u" secondAttribute="leading" constant="1" id="YpM-hm-x2d"/>
+                            <constraint firstAttribute="bottom" secondItem="RYP-Yj-037" secondAttribute="bottom" constant="16" id="aOG-R5-4jJ"/>
+                            <constraint firstAttribute="trailing" secondItem="K1E-zJ-dLS" secondAttribute="trailing" constant="3" id="bK7-fl-JHi"/>
+                            <constraint firstAttribute="trailing" secondItem="ngB-eP-kcu" secondAttribute="trailing" constant="3" id="bqu-n3-4Av"/>
+                            <constraint firstItem="6ju-XT-1ky" firstAttribute="leading" secondItem="F4n-hr-F8u" secondAttribute="leading" constant="1" id="cSE-ut-B2W"/>
+                            <constraint firstItem="Btv-bQ-QyS" firstAttribute="top" secondItem="F4n-hr-F8u" secondAttribute="top" constant="8" id="e30-RF-2ac"/>
+                            <constraint firstItem="Btv-bQ-QyS" firstAttribute="centerY" secondItem="vtA-my-Bkf" secondAttribute="centerY" id="iDu-6I-jk7"/>
+                            <constraint firstItem="Btv-bQ-QyS" firstAttribute="centerY" secondItem="Mvl-pH-sAw" secondAttribute="centerY" id="nXm-CA-i2n"/>
+                            <constraint firstItem="vtA-my-Bkf" firstAttribute="top" secondItem="F4n-hr-F8u" secondAttribute="top" constant="8" id="v2Y-AP-NQ2"/>
+                            <constraint firstAttribute="trailing" secondItem="RYP-Yj-037" secondAttribute="trailing" constant="2" id="z8b-yb-Hfw"/>
+                            <constraint firstItem="RYP-Yj-037" firstAttribute="centerY" secondItem="6ju-XT-1ky" secondAttribute="centerY" id="zx1-eU-f1g"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenShot20200522At121643Am" translatesAutoresizingMaskIntoConstraints="NO" id="9gg-vO-vLQ">
+                        <rect key="frame" x="0.0" y="0.0" width="184" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="c2K-qW-FMd"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="9gg-vO-vLQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="LMU-nm-v6J"/>
+                <constraint firstItem="F4n-hr-F8u" firstAttribute="top" secondItem="9gg-vO-vLQ" secondAttribute="bottom" id="Y1G-oD-zo7"/>
+                <constraint firstAttribute="bottom" secondItem="F4n-hr-F8u" secondAttribute="bottom" id="jKj-60-sfY"/>
+                <constraint firstItem="9gg-vO-vLQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uBt-xx-doP"/>
+                <constraint firstAttribute="trailing" secondItem="9gg-vO-vLQ" secondAttribute="trailing" id="xiI-fR-lWb"/>
+                <constraint firstItem="F4n-hr-F8u" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yiV-vE-nNe"/>
+                <constraint firstAttribute="trailing" secondItem="F4n-hr-F8u" secondAttribute="trailing" id="zex-Md-Flo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <point key="canvasLocation" x="139" y="125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" width="11" height="11"/>
+        <image name="screenShot20200522At121643Am" width="165" height="158"/>
+    </resources>
+</document>

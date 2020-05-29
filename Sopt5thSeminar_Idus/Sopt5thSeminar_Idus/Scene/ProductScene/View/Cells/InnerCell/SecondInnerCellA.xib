@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SecondInnerCellAIdentifier" id="gTV-IL-0wX" customClass="SecondInnerCellA" customModule="Sopt5thSeminar_Idus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="165" height="241"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="165" height="241"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenShot20200522At121326Am" translatesAutoresizingMaskIntoConstraints="NO" id="5lY-dM-e4E">
+                        <rect key="frame" x="0.0" y="0.0" width="165" height="158"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="158" id="1Ga-wo-zDI"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGk-CL-2Cq">
+                        <rect key="frame" x="0.0" y="158" width="165" height="83"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erH-L0-e1T">
+                                <rect key="frame" x="1" y="8" width="150" height="11"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="브라이트 컨셉">
+                                        <attributes>
+                                            <color key="NSColor" red="0.65490196078431373" green="0.65490196078431373" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="9" name="AppleSDGothicNeo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdk-GL-e9V">
+                                <rect key="frame" x="1" y="52.5" width="49.5" height="17"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="6,200원">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.017837350677188078" blue="0.032579320260621714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="AppleSDGothicNeo-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvh-zJ-8AE">
+                                <rect key="frame" x="1" y="21" width="150" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="9SG-W1-26h"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="베리베리 미니멀 파우치">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="AppleSDGothicNeo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="HLP-zM-JGc">
+                                <rect key="frame" x="139" y="55.5" width="11" height="11"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTf-3h-mmt">
+                                <rect key="frame" x="151" y="56" width="13" height="10"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="695">
+                                        <attributes>
+                                            <color key="NSColor" red="0.65490196079999996" green="0.65490196079999996" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="8" name="AppleSDGothicNeo-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Bdk-GL-e9V" firstAttribute="leading" secondItem="WGk-CL-2Cq" secondAttribute="leading" constant="1" id="6hz-GI-PmO"/>
+                            <constraint firstItem="Bdk-GL-e9V" firstAttribute="centerY" secondItem="lTf-3h-mmt" secondAttribute="centerY" id="6ui-xu-gtU"/>
+                            <constraint firstItem="lTf-3h-mmt" firstAttribute="leading" secondItem="HLP-zM-JGc" secondAttribute="trailing" constant="1" id="BHn-d4-2I8"/>
+                            <constraint firstItem="Lvh-zJ-8AE" firstAttribute="top" secondItem="erH-L0-e1T" secondAttribute="bottom" constant="2" id="FUb-yD-pvw"/>
+                            <constraint firstItem="HLP-zM-JGc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bdk-GL-e9V" secondAttribute="trailing" constant="83" id="HzP-dt-bdR"/>
+                            <constraint firstItem="Bdk-GL-e9V" firstAttribute="top" secondItem="Lvh-zJ-8AE" secondAttribute="bottom" constant="12.5" id="Uza-yu-4Iw"/>
+                            <constraint firstAttribute="bottom" secondItem="Bdk-GL-e9V" secondAttribute="bottom" constant="13.5" id="XPP-B4-VRO"/>
+                            <constraint firstAttribute="trailing" secondItem="lTf-3h-mmt" secondAttribute="trailing" constant="1" id="e6C-uu-CQ7"/>
+                            <constraint firstItem="erH-L0-e1T" firstAttribute="leading" secondItem="WGk-CL-2Cq" secondAttribute="leading" constant="1" id="fUy-d3-9Os"/>
+                            <constraint firstAttribute="trailing" secondItem="erH-L0-e1T" secondAttribute="trailing" constant="14" id="nwh-zR-n7h"/>
+                            <constraint firstItem="Lvh-zJ-8AE" firstAttribute="leading" secondItem="WGk-CL-2Cq" secondAttribute="leading" constant="1" id="oY7-CG-ypv"/>
+                            <constraint firstAttribute="trailing" secondItem="Lvh-zJ-8AE" secondAttribute="trailing" constant="14" id="ouc-IC-izz"/>
+                            <constraint firstItem="erH-L0-e1T" firstAttribute="top" secondItem="WGk-CL-2Cq" secondAttribute="top" constant="8" id="vDF-5e-GmM"/>
+                            <constraint firstItem="Bdk-GL-e9V" firstAttribute="centerY" secondItem="HLP-zM-JGc" secondAttribute="centerY" id="x3G-69-NhU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WGk-CL-2Cq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4dQ-iC-UYS"/>
+                <constraint firstAttribute="bottom" secondItem="WGk-CL-2Cq" secondAttribute="bottom" id="Rq1-RQ-yXS"/>
+                <constraint firstItem="5lY-dM-e4E" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="S1y-qe-QFo"/>
+                <constraint firstItem="5lY-dM-e4E" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gKY-Kd-edC"/>
+                <constraint firstItem="WGk-CL-2Cq" firstAttribute="top" secondItem="5lY-dM-e4E" secondAttribute="bottom" id="neB-GA-hFG"/>
+                <constraint firstAttribute="trailing" secondItem="5lY-dM-e4E" secondAttribute="trailing" id="sPD-4w-UYr"/>
+                <constraint firstAttribute="trailing" secondItem="WGk-CL-2Cq" secondAttribute="trailing" id="wal-Xn-Dna"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="bannerImage" destination="5lY-dM-e4E" id="8La-tf-4wS"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="124.55357142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" width="11" height="11"/>
+        <image name="screenShot20200522At121326Am" width="165" height="158"/>
+    </resources>
+</document>
