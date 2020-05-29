@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D02D52724812D8800EE7BE9 /* SixthSectionCellA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D02D52624812D8800EE7BE9 /* SixthSectionCellA.xib */; };
 		3D0AC95E247B83A500E0DCDE /* FirstSectionCellA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AC95D247B83A500E0DCDE /* FirstSectionCellA.swift */; };
 		3D0AC960247B83D100E0DCDE /* SecondSectionCellA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AC95F247B83D100E0DCDE /* SecondSectionCellA.swift */; };
 		3D0AC963247B83EC00E0DCDE /* ThirdSectionCellA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AC962247B83EC00E0DCDE /* ThirdSectionCellA.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D02D52624812D8800EE7BE9 /* SixthSectionCellA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SixthSectionCellA.xib; sourceTree = "<group>"; };
 		3D0AC95D247B83A500E0DCDE /* FirstSectionCellA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSectionCellA.swift; sourceTree = "<group>"; };
 		3D0AC95F247B83D100E0DCDE /* SecondSectionCellA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSectionCellA.swift; sourceTree = "<group>"; };
 		3D0AC962247B83EC00E0DCDE /* ThirdSectionCellA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdSectionCellA.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				3D0AC964247B83F900E0DCDE /* FourthSectionCellA.swift */,
 				3D0AC966247B840400E0DCDE /* FifthSectionCellA.swift */,
 				3D0AC968247B840D00E0DCDE /* SixthSectionCellA.swift */,
+				3D02D52624812D8800EE7BE9 /* SixthSectionCellA.xib */,
 				3D0AC96A247B847000E0DCDE /* HeaderCellA.swift */,
 				3D0AC96C247B847A00E0DCDE /* FooterCellA.swift */,
 			);
@@ -395,6 +398,7 @@
 			files = (
 				3DAEEBD8247AB30600DFA882 /* ThirdInnerCell.xib in Resources */,
 				3DAEEB9324797A5C00DFA882 /* LaunchScreen.storyboard in Resources */,
+				3D02D52724812D8800EE7BE9 /* SixthSectionCellA.xib in Resources */,
 				3DD8DDB1247B8AD70041037B /* FirstInnerCellA.xib in Resources */,
 				3DAEEBD4247AB21C00DFA882 /* SecondInnerCell.xib in Resources */,
 				3DD8DDC1247B8B340041037B /* FourthInnerCellA.xib in Resources */,
