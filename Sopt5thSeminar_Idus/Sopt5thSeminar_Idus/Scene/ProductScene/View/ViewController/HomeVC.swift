@@ -16,6 +16,8 @@ class HomeVC: UIViewController {
         
         outterCollectionView.delegate = self
         outterCollectionView.dataSource = self
+        outterCollectionView.register(UINib.init(nibName: "SixthSectionCellA", bundle: nil), forCellWithReuseIdentifier: "SixthSectionCellAIdentifier")
+        
         setNavigationBar()
         self.view.backgroundColor = UIColor.idusColor(.backgroundGrayColor)
         
@@ -133,18 +135,16 @@ extension HomeVC: UICollectionViewDataSource {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SecondSectionCellA", for: indexPath) as? SecondSectionCellA else { return UICollectionViewCell() }
             
             return cell
-            
         case 2:
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ThirdSectionCellA", for: indexPath) as? ThirdSectionCellA else { return UICollectionViewCell() }
             
             return cell
-            
         case 3:
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FourthSectionCellA", for: indexPath) as? FourthSectionCellA else { return UICollectionViewCell() }
             
             return cell
         case 4:
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SixthSectionCellA", for: indexPath) as? SixthSectionCellA else { return UICollectionViewCell() }
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SixthSectionCellAIdentifier", for: indexPath) as? SixthSectionCellA else { return UICollectionViewCell() }
             
             return cell
         default:
@@ -155,7 +155,6 @@ extension HomeVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         switch kind {
         case UICollectionView.elementKindSectionHeader:
-            
             
             switch indexPath.section {
             case 0:
@@ -176,17 +175,39 @@ extension HomeVC: UICollectionViewDataSource {
 
                 return view
             case 3:
-                guard let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderCellA", for: indexPath) as? HeaderCellA else { return UICollectionReusableView() }
+//                guard let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderCellA", for: indexPath) as? HeaderCellA else { return UICollectionReusableView() }
                         
+                guard let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderCellA", for: indexPath) as? HeaderCellA else { return UICollectionReusableView() }
+
+                let label = UILabel()
+                label.font = .boldSystemFont(ofSize: 14)
+                label.text = "실시간"
                 
-                view.headerLabel.text = "실시간"
-                view.firstHeaderButton.titleLabel?.text =
-                    "구매"
-                view.secondHeaderButton.titleLabel?.text = "후기"
-                view.thirdHeaderButton.titleLabel?.text = "추천"
+                let button1 = UIButton.init(frame: CGRect(x: 237, y: 0, width: self.view.bounds.width, height: 44))
+                button1.titleLabel?.text = "구매"
                 
+                let button2 = UIButton.init(frame: CGRect(x: 281, y: 0, width: self.view.bounds.width, height: 44))
+                button1.titleLabel?.text = "후기"
+                
+                let button3 = UIButton.init(frame: CGRect(x: 325, y: 0, width: self.view.bounds.width, height: 44))
+                button1.titleLabel?.text = "추천"
+                
+                
+                view.addSubview(label)
+                view.addSubview(button1)
+                view.addSubview(button2)
+                view.addSubview(button3)
+
                 return view
-            case 4:
+                
+                
+                
+//                view.headerLabel.text = "실시간"
+//                view.firstHeaderButton.titleLabel?.text =
+//                    "구매"
+//                view.secondHeaderButton.titleLabel?.text = "후기"
+//                view.thirdHeaderButton.titleLabel?.text = "추천"
+                case 4:
                 guard let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderCellA", for: indexPath) as? HeaderCellA else { return UICollectionReusableView() }
                         
                 view.headerLabel.text = "인기 작가"
