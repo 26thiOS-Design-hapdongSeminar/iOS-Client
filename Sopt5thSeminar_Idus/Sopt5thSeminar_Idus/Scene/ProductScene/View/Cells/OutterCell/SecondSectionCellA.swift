@@ -18,10 +18,8 @@ class SecondSectionCellA: UICollectionViewCell {
         innerCollectionView.register(UINib.init(nibName: "SecondInnerCellA", bundle: nil), forCellWithReuseIdentifier: "SecondInnerCellAIdentifier")
         innerCollectionView.delegate = self
         innerCollectionView.dataSource = self
-
     }
 }
-
 
 extension SecondSectionCellA: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
   

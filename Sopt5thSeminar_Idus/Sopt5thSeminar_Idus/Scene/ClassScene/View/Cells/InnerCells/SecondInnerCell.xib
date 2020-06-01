@@ -27,12 +27,18 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공예/도자 ㅣ 난이도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v99-Ws-oTY">
                                 <rect key="frame" x="1" y="8" width="64" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="dnr-4c-AqQ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="up5-Fa-Qfn">
                                 <rect key="frame" x="66" y="8" width="7" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="7" id="nyR-yb-CSe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -77,12 +83,18 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="274" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIT-T7-aVJ">
                                 <rect key="frame" x="166" y="9" width="15" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="y4t-EJ-SZi"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="5d5-nF-x5i">
                                 <rect key="frame" x="155" y="7.5" width="11" height="11"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="11" id="hS2-zU-nea"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -97,9 +109,9 @@
                             <constraint firstItem="Iwq-Bq-kXZ" firstAttribute="top" secondItem="ATl-c0-Ccp" secondAttribute="bottom" constant="10" id="TMk-XU-o5S"/>
                             <constraint firstItem="ATl-c0-Ccp" firstAttribute="leading" secondItem="TEv-xO-bSw" secondAttribute="leading" constant="1" id="Tox-3b-Ded"/>
                             <constraint firstItem="v99-Ws-oTY" firstAttribute="top" secondItem="TEv-xO-bSw" secondAttribute="top" constant="8" id="Vn5-0k-hAu"/>
-                            <constraint firstItem="up5-Fa-Qfn" firstAttribute="leading" secondItem="v99-Ws-oTY" secondAttribute="trailing" constant="1" id="Ww5-SW-gUn"/>
+                            <constraint firstItem="up5-Fa-Qfn" firstAttribute="leading" relation="lessThanOrEqual" secondItem="v99-Ws-oTY" secondAttribute="trailing" constant="1" id="Ww5-SW-gUn"/>
                             <constraint firstItem="v99-Ws-oTY" firstAttribute="centerY" secondItem="5d5-nF-x5i" secondAttribute="centerY" id="ZJO-CA-2Lb"/>
-                            <constraint firstItem="5d5-nF-x5i" firstAttribute="leading" secondItem="up5-Fa-Qfn" secondAttribute="trailing" constant="82" id="aVm-pD-V94"/>
+                            <constraint firstItem="5d5-nF-x5i" firstAttribute="leading" relation="lessThanOrEqual" secondItem="up5-Fa-Qfn" secondAttribute="trailing" constant="82" id="aVm-pD-V94"/>
                             <constraint firstAttribute="trailing" secondItem="nIT-T7-aVJ" secondAttribute="trailing" constant="3" id="cmx-fO-ak6"/>
                             <constraint firstItem="nIT-T7-aVJ" firstAttribute="leading" secondItem="5d5-nF-x5i" secondAttribute="trailing" id="ire-K3-Lmw"/>
                             <constraint firstAttribute="trailing" secondItem="5Hx-C9-SpS" secondAttribute="trailing" constant="2" id="j2u-dX-W9z"/>

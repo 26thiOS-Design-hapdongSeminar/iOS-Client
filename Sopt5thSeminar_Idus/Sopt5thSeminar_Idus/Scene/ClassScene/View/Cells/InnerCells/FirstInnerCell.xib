@@ -36,17 +36,15 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-Oz-lbX">
-                        <rect key="frame" x="51.5" y="55.5" width="1.5" height="68"/>
+                        <rect key="frame" x="51.5" y="55" width="1.5" height="68"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="68" id="iYD-VB-2B2"/>
+                            <constraint firstAttribute="width" constant="1.5" id="x6E-cs-hsZ"/>
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XC9-sf-mZU">
                         <rect key="frame" x="16" y="139" width="174" height="58"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="174" id="D3d-Ix-e89"/>
-                        </constraints>
                         <attributedString key="attributedText">
                             <fragment content="사랑하는 문화를 만들다.">
                                 <attributes>
@@ -66,12 +64,12 @@
                 <constraint firstAttribute="trailing" secondItem="kDM-15-hJP" secondAttribute="trailing" constant="255" id="GSS-4C-zoB"/>
                 <constraint firstAttribute="trailing" secondItem="WiO-Eb-ZE7" secondAttribute="trailing" id="ICZ-tG-sWI"/>
                 <constraint firstAttribute="bottom" secondItem="WiO-Eb-ZE7" secondAttribute="bottom" id="Ii3-Xn-EuN"/>
-                <constraint firstAttribute="trailing" secondItem="Yg8-Oz-lbX" secondAttribute="trailing" constant="322" id="QWr-lt-M3g"/>
+                <constraint firstItem="kDM-15-hJP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="25" id="ONU-6r-s5G"/>
                 <constraint firstItem="WiO-Eb-ZE7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="WJk-5S-g7t"/>
                 <constraint firstItem="kDM-15-hJP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="WmK-sg-Mvg"/>
                 <constraint firstAttribute="trailing" secondItem="XC9-sf-mZU" secondAttribute="trailing" constant="185" id="amP-qd-5hL"/>
                 <constraint firstItem="Yg8-Oz-lbX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="51.5" id="biQ-Rc-CWp"/>
-                <constraint firstItem="Yg8-Oz-lbX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="55.5" id="cgU-XX-t5U"/>
+                <constraint firstItem="Yg8-Oz-lbX" firstAttribute="top" secondItem="kDM-15-hJP" secondAttribute="bottom" constant="6" id="cgU-XX-t5U"/>
                 <constraint firstAttribute="bottom" secondItem="XC9-sf-mZU" secondAttribute="bottom" constant="13" id="vuQ-va-LbA"/>
                 <constraint firstItem="XC9-sf-mZU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="xhY-5a-rfq"/>
             </constraints>

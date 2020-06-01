@@ -14,12 +14,10 @@ class OnlineVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        
-//        DispatchQueue.main.async {
-//            self.outterCollectionView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 611)
-//        }
+
         outterCollectionView.delegate = self
         outterCollectionView.dataSource = self
+    
     }
 }
 
@@ -33,8 +31,6 @@ extension OnlineVC: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 1
     }
-    
-	
     
     // Inset과 Spacing은 모두 0
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -51,7 +47,6 @@ extension OnlineVC: UICollectionViewDelegateFlowLayout {
             return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         } else {
             return UIEdgeInsets(top: 3, left: 0, bottom: 0, right: 0)
-
         }
     }
     

@@ -50,6 +50,14 @@
 		3DD8DDBC247B8B060041037B /* ThirdInnerCellA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8DDBA247B8B060041037B /* ThirdInnerCellA.xib */; };
 		3DD8DDC0247B8B340041037B /* FourthInnerCellA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8DDBE247B8B340041037B /* FourthInnerCellA.swift */; };
 		3DD8DDC1247B8B340041037B /* FourthInnerCellA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8DDBF247B8B340041037B /* FourthInnerCellA.xib */; };
+		3DE398B62484A009005529C0 /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE398B52484A009005529C0 /* BannerModel.swift */; };
+		3DE398B82484A036005529C0 /* ClassRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE398B72484A036005529C0 /* ClassRecommendModel.swift */; };
+		3DE398BA2484A154005529C0 /* ProductRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE398B92484A154005529C0 /* ProductRecommendModel.swift */; };
+		3DE398BC2484A1E2005529C0 /* JustPurchasedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE398BB2484A1E2005529C0 /* JustPurchasedModel.swift */; };
+		3DE398BE2484A2A9005529C0 /* TodaysPopularWriterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE398BD2484A2A9005529C0 /* TodaysPopularWriterModel.swift */; };
+		3DE398C02484A3B9005529C0 /* ClassProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE398BF2484A3B9005529C0 /* ClassProgressModel.swift */; };
+		3DE398C32484A3EF005529C0 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE398C22484A3EF005529C0 /* APIConstants.swift */; };
+		8BED249779DE7AB2919EB3C8 /* Pods_Sopt5thSeminar_Idus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD1E73EE027AD01B577D779 /* Pods_Sopt5thSeminar_Idus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +106,16 @@
 		3DD8DDBA247B8B060041037B /* ThirdInnerCellA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdInnerCellA.xib; sourceTree = "<group>"; };
 		3DD8DDBE247B8B340041037B /* FourthInnerCellA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthInnerCellA.swift; sourceTree = "<group>"; };
 		3DD8DDBF247B8B340041037B /* FourthInnerCellA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthInnerCellA.xib; sourceTree = "<group>"; };
+		3DE398B52484A009005529C0 /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		3DE398B72484A036005529C0 /* ClassRecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRecommendModel.swift; sourceTree = "<group>"; };
+		3DE398B92484A154005529C0 /* ProductRecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendModel.swift; sourceTree = "<group>"; };
+		3DE398BB2484A1E2005529C0 /* JustPurchasedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustPurchasedModel.swift; sourceTree = "<group>"; };
+		3DE398BD2484A2A9005529C0 /* TodaysPopularWriterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysPopularWriterModel.swift; sourceTree = "<group>"; };
+		3DE398BF2484A3B9005529C0 /* ClassProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassProgressModel.swift; sourceTree = "<group>"; };
+		3DE398C22484A3EF005529C0 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		449CBDFCB3DC768F4154D54B /* Pods-Sopt5thSeminar_Idus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopt5thSeminar_Idus.release.xcconfig"; path = "Target Support Files/Pods-Sopt5thSeminar_Idus/Pods-Sopt5thSeminar_Idus.release.xcconfig"; sourceTree = "<group>"; };
+		49AFE7557F0BC3460351E738 /* Pods-Sopt5thSeminar_Idus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopt5thSeminar_Idus.debug.xcconfig"; path = "Target Support Files/Pods-Sopt5thSeminar_Idus/Pods-Sopt5thSeminar_Idus.debug.xcconfig"; sourceTree = "<group>"; };
+		DDD1E73EE027AD01B577D779 /* Pods_Sopt5thSeminar_Idus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sopt5thSeminar_Idus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BED249779DE7AB2919EB3C8 /* Pods_Sopt5thSeminar_Idus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +177,9 @@
 		3D0AC95C247B801800E0DCDE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3DE398B92484A154005529C0 /* ProductRecommendModel.swift */,
+				3DE398BB2484A1E2005529C0 /* JustPurchasedModel.swift */,
+				3DE398BD2484A2A9005529C0 /* TodaysPopularWriterModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +220,8 @@
 			children = (
 				3DAEEB8524797A5B00DFA882 /* Sopt5thSeminar_Idus */,
 				3DAEEB8424797A5B00DFA882 /* Products */,
+				5CD211987AD9D0773F0CE0F1 /* Pods */,
+				B9BB9678D2FB8FCA1F03AA86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,9 +290,10 @@
 		3DAEEB9E24797A7800DFA882 /* Supports */ = {
 			isa = PBXGroup;
 			children = (
+				3DE398C12484A3E0005529C0 /* APIs */,
+				3DAEEB9F24797A7900DFA882 /* Delegates */,
 				3DAEEB8F24797A5C00DFA882 /* Assets.xcassets */,
 				3DAEEB9424797A5C00DFA882 /* Info.plist */,
-				3DAEEB9F24797A7900DFA882 /* Delegates */,
 			);
 			path = Supports;
 			sourceTree = "<group>";
@@ -303,6 +328,9 @@
 		3DAEEBB824798FD700DFA882 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3DE398B52484A009005529C0 /* BannerModel.swift */,
+				3DE398B72484A036005529C0 /* ClassRecommendModel.swift */,
+				3DE398BF2484A3B9005529C0 /* ClassProgressModel.swift */,
 				3DAEEBBD24799C2000DFA882 /* Swiftfiles */,
 			);
 			path = Models;
@@ -338,6 +366,32 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		3DE398C12484A3E0005529C0 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				3DE398C22484A3EF005529C0 /* APIConstants.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		5CD211987AD9D0773F0CE0F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49AFE7557F0BC3460351E738 /* Pods-Sopt5thSeminar_Idus.debug.xcconfig */,
+				449CBDFCB3DC768F4154D54B /* Pods-Sopt5thSeminar_Idus.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9BB9678D2FB8FCA1F03AA86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1E73EE027AD01B577D779 /* Pods_Sopt5thSeminar_Idus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -345,9 +399,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DAEEB9724797A5C00DFA882 /* Build configuration list for PBXNativeTarget "Sopt5thSeminar_Idus" */;
 			buildPhases = (
+				F7D343BD4141ABC79BD78DF6 /* [CP] Check Pods Manifest.lock */,
 				3DAEEB7F24797A5B00DFA882 /* Sources */,
 				3DAEEB8024797A5B00DFA882 /* Frameworks */,
 				3DAEEB8124797A5B00DFA882 /* Resources */,
+				57C4C163B38001108FE140E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -412,15 +468,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57C4C163B38001108FE140E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sopt5thSeminar_Idus/Pods-Sopt5thSeminar_Idus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sopt5thSeminar_Idus/Pods-Sopt5thSeminar_Idus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sopt5thSeminar_Idus/Pods-Sopt5thSeminar_Idus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D343BD4141ABC79BD78DF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sopt5thSeminar_Idus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DAEEB7F24797A5B00DFA882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE398C02484A3B9005529C0 /* ClassProgressModel.swift in Sources */,
+				3DE398BA2484A154005529C0 /* ProductRecommendModel.swift in Sources */,
+				3DE398C32484A3EF005529C0 /* APIConstants.swift in Sources */,
 				3D0AC96B247B847000E0DCDE /* HeaderCellA.swift in Sources */,
 				3DAEEBBC24799B1600DFA882 /* MenuCVCell.swift in Sources */,
 				3DAEEBC5247A685F00DFA882 /* SecondSectionCell.swift in Sources */,
 				3D0AC95E247B83A500E0DCDE /* FirstSectionCellA.swift in Sources */,
+				3DE398B82484A036005529C0 /* ClassRecommendModel.swift in Sources */,
 				3D0AC96D247B847A00E0DCDE /* FooterCellA.swift in Sources */,
 				3DAEEBC12479A18D00DFA882 /* PageVC.swift in Sources */,
 				3DD8DDC0247B8B340041037B /* FourthInnerCellA.swift in Sources */,
@@ -435,6 +537,8 @@
 				3DAEEBA4247988A100DFA882 /* ClassVC.swift in Sources */,
 				3DAEEBC3247A685600DFA882 /* FirstSectionCell.swift in Sources */,
 				3DAEEBD3247AB21C00DFA882 /* SecondInnerCell.swift in Sources */,
+				3DE398B62484A009005529C0 /* BannerModel.swift in Sources */,
+				3DE398BC2484A1E2005529C0 /* JustPurchasedModel.swift in Sources */,
 				3DAEEBCB247A9E2B00DFA882 /* FooterCell.swift in Sources */,
 				3DAEEBBF24799C3600DFA882 /* MenuItems.swift in Sources */,
 				3DAEEBA9247988C100DFA882 /* MyInfoVC.swift in Sources */,
@@ -442,6 +546,7 @@
 				3DAEEBD7247AB30600DFA882 /* ThirdInnerCell.swift in Sources */,
 				3DAEEBCF247AB20C00DFA882 /* FirstInnerCell.swift in Sources */,
 				3DD8DDBB247B8B060041037B /* ThirdInnerCellA.swift in Sources */,
+				3DE398BE2484A2A9005529C0 /* TodaysPopularWriterModel.swift in Sources */,
 				3DAEEB8924797A5B00DFA882 /* SceneDelegate.swift in Sources */,
 				3DAEEBA22479823500DFA882 /* Extensions+UIColor.swift in Sources */,
 				3DD8DDB7247B8AFA0041037B /* SecondInnerCellA.swift in Sources */,
@@ -590,6 +695,7 @@
 		};
 		3DAEEB9824797A5C00DFA882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49AFE7557F0BC3460351E738 /* Pods-Sopt5thSeminar_Idus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,6 +714,7 @@
 		};
 		3DAEEB9924797A5C00DFA882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449CBDFCB3DC768F4154D54B /* Pods-Sopt5thSeminar_Idus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

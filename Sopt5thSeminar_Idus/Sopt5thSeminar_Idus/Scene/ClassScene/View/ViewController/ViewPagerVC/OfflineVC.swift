@@ -16,6 +16,7 @@ class OfflineVC: UIViewController {
 
         tableView.dataSource = self
         // Do any additional setup after loading the view.
+        tableView.contentInset = UIEdgeInsets(top: 10, left: 0, bottom: 150, right: 0)
     }
 }
 

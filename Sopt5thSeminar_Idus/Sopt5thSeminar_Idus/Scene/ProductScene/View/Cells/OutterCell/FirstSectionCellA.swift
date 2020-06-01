@@ -20,6 +20,7 @@ class FirstSectionCellA: UICollectionViewCell {
                              UIImage(imageLiteralResourceName: "homeSliderAd"),
                              UIImage(imageLiteralResourceName: "homeSliderAd")
     ]
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -29,7 +30,6 @@ class FirstSectionCellA: UICollectionViewCell {
 
     }
 }
-
 
 extension FirstSectionCellA: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     
@@ -50,6 +50,7 @@ extension FirstSectionCellA: UICollectionViewDelegateFlowLayout, UICollectionVie
         let width = self.bounds.width
         let height = width * (268 / 375)
         
+        print("width : \(width), height : \(height)")
         return CGSize(width: width, height: height)
     }
     
