@@ -15,6 +15,14 @@ class HeaderCellA: UICollectionReusableView {
     @IBOutlet weak var secondHeaderButton: UIButton!
     @IBOutlet weak var thirdHeaderButton: UIButton!
 
+    func bind (model: TestModel) {
+        headerLabel.font = UIFont.boldSystemFont(ofSize: 15)
+        headerLabel.text = model.headerLabel
+        firstHeaderButton = model.firstButton
+        secondHeaderButton = model.secondButton
+        thirdHeaderButton = model.thirdButton
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
