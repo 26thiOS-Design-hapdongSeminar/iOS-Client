@@ -286,7 +286,7 @@
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SixthSectionCellA" id="tMX-Vf-sAq" customClass="SixthSectionCellA" customModule="Sopt5thSeminar_Idus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="941" width="375" height="451"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="w6V-Lj-Tc8">
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="w6V-Lj-Tc8">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="451"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </collectionViewCellContentView>
@@ -337,6 +337,12 @@
                                         <constraint firstItem="rth-FF-eMK" firstAttribute="centerY" secondItem="CY1-l3-sFw" secondAttribute="centerY" id="npk-hL-hic"/>
                                         <constraint firstItem="rth-FF-eMK" firstAttribute="centerY" secondItem="tBj-3e-QUN" secondAttribute="centerY" id="rDe-Rh-uhj"/>
                                     </constraints>
+                                    <connections>
+                                        <outlet property="firstHeaderButton" destination="CY1-l3-sFw" id="iNP-g1-Fsm"/>
+                                        <outlet property="headerLabel" destination="rth-FF-eMK" id="uHo-Zp-5ha"/>
+                                        <outlet property="secondHeaderButton" destination="mXX-mq-ncw" id="Sz7-Ph-Qq3"/>
+                                        <outlet property="thirdHeaderButton" destination="GHd-DT-XlN" id="N7T-IF-eFa"/>
+                                    </connections>
                                 </collectionReusableView>
                                 <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FooterCellA" id="N6b-oP-FLc" customClass="FooterCellA" customModule="Sopt5thSeminar_Idus" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="1392" width="375" height="50"/>

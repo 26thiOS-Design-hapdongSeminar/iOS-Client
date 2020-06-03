@@ -13,6 +13,7 @@ struct TodaysPopularWriterModel: Codable {
     var success: Bool
     var message: String
     var data: [TodaysPopularWriterData]
+    
 }
 
 // MARK: - Datum
