@@ -51,7 +51,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvh-zJ-8AE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Lvh-zJ-8AE">
                                 <rect key="frame" x="1" y="21" width="150" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="9SG-W1-26h"/>
@@ -60,7 +60,7 @@
                                     <fragment content="베리베리 미니멀 파우치">
                                         <attributes>
                                             <font key="NSFont" size="14" name="AppleSDGothicNeo-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -113,6 +113,9 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <connections>
                 <outlet property="bannerImage" destination="5lY-dM-e4E" id="8La-tf-4wS"/>
+                <outlet property="info" destination="erH-L0-e1T" id="0RU-tt-ppq"/>
+                <outlet property="price" destination="Bdk-GL-e9V" id="75D-dU-Yqy"/>
+                <outlet property="productName" destination="Lvh-zJ-8AE" id="ilX-Xr-2g3"/>
             </connections>
             <point key="canvasLocation" x="139.85507246376812" y="124.21875"/>
         </collectionViewCell>

@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct ResponseResult<T: Codable>: Codable {
+    var success: Bool
+    var message: String?
+    var data: [T]?
+}

@@ -9,8 +9,10 @@
 import UIKit
 
 struct TestModel {
+    
     var headerLabel: String!
     var firstButton: UIButton!
     var secondButton: UIButton!
     var thirdButton: UIButton!
+    
 }

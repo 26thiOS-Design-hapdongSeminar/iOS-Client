@@ -19,6 +19,7 @@ class HomeVC: UIViewController {
         TestModel(headerLabel: "실시간", firstButton: UIButton(), secondButton: UIButton(), thirdButton: UIButton()),
         TestModel(headerLabel: "인기 작가", firstButton: UIButton(), secondButton: UIButton(), thirdButton: UIButton())
     ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -183,7 +184,7 @@ extension HomeVC: UICollectionViewDataSource {
             
         case UICollectionView.elementKindSectionFooter:
             guard let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "FooterCellA", for: indexPath) as? FooterCellA else { return UICollectionReusableView() }
-            
+                
             let backgroundview = UIView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 16))
             backgroundview.backgroundColor = UIColor.idusColor(.backgroundGrayColor)
             
@@ -194,4 +195,3 @@ extension HomeVC: UICollectionViewDataSource {
         }
     }
 }
-

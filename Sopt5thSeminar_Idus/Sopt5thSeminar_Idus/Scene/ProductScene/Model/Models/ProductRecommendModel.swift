@@ -28,6 +28,7 @@ struct ProductRecommendModel: Codable {
 //}
 
 struct ProductRecommendData: Codable {
+    
     var productIdx: Int?
     var name: String?
     var img: String?

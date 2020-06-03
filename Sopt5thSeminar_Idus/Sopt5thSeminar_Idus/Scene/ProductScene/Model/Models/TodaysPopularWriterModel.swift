@@ -14,7 +14,6 @@ struct TodaysPopularWriterModel: Codable {
     var message: String
     var data: [TodaysPopularWriterData]
     
-    // 사실 너는 기냥 데이터만 있어도 된단 말이지 으짜피,,?
 }
 
 // MARK: - Datum

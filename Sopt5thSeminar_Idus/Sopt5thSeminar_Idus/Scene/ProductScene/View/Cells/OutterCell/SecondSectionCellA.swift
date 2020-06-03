@@ -11,30 +11,35 @@ import UIKit
 class SecondSectionCellA: UICollectionViewCell {
     
     @IBOutlet weak var innerCollectionView: UICollectionView!
+    var productData: [ProductRecommendData] = []
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        setDefaultRequest()
         innerCollectionView.register(UINib.init(nibName: "SecondInnerCellA", bundle: nil), forCellWithReuseIdentifier: "SecondInnerCellAIdentifier")
         innerCollectionView.delegate = self
         innerCollectionView.dataSource = self
     }
+    
 }
 
 extension SecondSectionCellA: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
-  
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return productData.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SecondInnerCellAIdentifier", for: indexPath) as? SecondInnerCellA else { return UICollectionViewCell() }
+        
+        cell.bind(model: productData[indexPath.item])
 
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    
+        
         let height = self.bounds.height - 3
         let width = height * (165/238)
         return CGSize(width: width, height: height)
@@ -52,6 +57,23 @@ extension SecondSectionCellA: UICollectionViewDelegateFlowLayout, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 16
     }
-    
-    
+}
+
+
+//MARK: - 통신
+extension SecondSectionCellA {
+    func setDefaultRequest() {
+        
+        ProductServices.productShared.getProductRecommendRequest { data in
+            if let metaData = data {
+                self.productData = metaData
+                self.innerCollectionView.reloadData()
+            }
+        }
+        
+        ProductServices.productShared.getProductRecommendRequest { data in
+            
+            
+        }
+    }
 }
