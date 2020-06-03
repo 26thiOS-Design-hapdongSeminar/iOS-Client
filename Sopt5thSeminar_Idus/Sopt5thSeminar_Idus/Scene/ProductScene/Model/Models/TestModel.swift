@@ -14,5 +14,4 @@ struct TestModel {
     var firstButton: UIButton!
     var secondButton: UIButton!
     var thirdButton: UIButton!
-    
 }
